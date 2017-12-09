@@ -3,7 +3,7 @@
 Vertx.x and microservices example application with Angular frontend.
 This application is only for educational purpose.
 
-## Architecture
+## Architecture
 
 The application has a microservices based architecture.
 
@@ -31,7 +31,7 @@ it send a message through the event bus.
 There *scafolder* is a library used in each microservice. It have repetitive
 tasks like create new HTTP server, initialize the configuration,...
 
-## How to use it?
+## How to use it?
 
 Each folder is a independent maven project, so it can be used like that.
 
