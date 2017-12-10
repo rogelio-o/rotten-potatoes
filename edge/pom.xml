@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.rogelioorts.workshop.vertx.microservices</groupId>
+  <groupId>com.rogelioorts.rotten.potatoes</groupId>
   <artifactId>edge</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Edge Microservice</name>
@@ -9,7 +9,7 @@
   <properties>
   	<vertx-version>3.5.0</vertx-version>
   	<lombok-version>1.16.16</lombok-version>
-  	<scafolder-version>0.0.1-SNAPSHOT</scafolder-version>
+  	<shared-version>0.0.1-SNAPSHOT</shared-version>
   	<frontend-maven-plugin.version>1.6</frontend-maven-plugin.version>
   	<node.version>v8.4.0</node.version>
   </properties>
@@ -25,9 +25,9 @@
   
   <dependencies>
   	<dependency>
-	  <groupId>com.rogelioorts.workshop.vertx.microservices</groupId>
-	  <artifactId>scafolder</artifactId>
-	  <version>${scafolder-version}</version>
+	  <groupId>com.rogelioorts.rotten.potatoes</groupId>
+	  <artifactId>shared</artifactId>
+	  <version>${shared-version}</version>
 	</dependency>
 	<dependency>
 		<groupId>io.vertx</groupId>
