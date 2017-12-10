@@ -1,13 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.rogelioorts.workshop.vertx.microservices</groupId>
+  <groupId>com.rogelioorts.rotten.potatoes</groupId>
   <artifactId>series.episodes</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Series Episodes Microservice</name>
   <description>This microservice manages the data of the series episodes and show it.</description>
   
   <properties>
-  	<scafolder-version>0.0.1-SNAPSHOT</scafolder-version>
+  	<shared-version>0.0.1-SNAPSHOT</shared-version>
   	<lombok-version>1.16.16</lombok-version>
   </properties>
   
@@ -22,9 +22,9 @@
   
   <dependencies>
   	<dependency>
-	  <groupId>com.rogelioorts.workshop.vertx.microservices</groupId>
-	  <artifactId>scafolder</artifactId>
-	  <version>${scafolder-version}</version>
+	  <groupId>com.rogelioorts.rotten.potatoes</groupId>
+	  <artifactId>shared</artifactId>
+	  <version>${shared-version}</version>
 	</dependency>
 	<dependency>
       <groupId>org.projectlombok</groupId>
